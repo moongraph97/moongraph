@@ -307,7 +307,7 @@ top: 1076px;
 }
 
 @media screen and (max-width: 600px) {
-    .inicio{
+    .contenedor{
             width: 100%;
         }
 }
