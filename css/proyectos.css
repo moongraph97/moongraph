@@ -1,0 +1,113 @@
+.inicio{
+    position: relative;
+    width: 1320px;
+    height: 1863px;
+    background: #FFFFFF;
+    }
+
+.parrafo{
+    position: absolute;
+    width: 940px;
+    height: 108px;
+    left: 170px;
+    top: 223px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 125%;
+    color: #000000;
+}
+
+.rectangulo{
+    position: absolute;
+    width: 319px;
+    height: 144px;
+    left: 145px;
+    top: 208px;
+    background: #B6ACA7;
+}
+
+.ralekami{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 903px;
+    height: 513px;
+    left: 189px;
+    top: 400px;
+    border-radius: 25px;
+    filter: drop-shadow(15px 20px 55px rgba(0, 0, 0, 0.15));
+}
+
+.flayers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 95px;
+
+    position: absolute;
+    width: 737px;
+    height: 321px;
+    left: 271px;
+    top: 1026px;
+}
+
+.laboral{
+    width: 321px;
+    height: 321px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.proyectos{
+    width: 321px;
+    height: 321px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.mas-proyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 45px;
+    gap: 10px;
+
+    position: absolute;
+    width: 271px;
+    height: 71px;
+    left: 506px;
+    top: 1426px;
+
+    background: #6CBCEC;
+    box-shadow: 8px 8px 35px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.texto{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    line-height: 44%
+
+}
+
+.link{
+    text-decoration: none;
+}

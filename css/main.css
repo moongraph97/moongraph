@@ -1,0 +1,307 @@
+@import url(proyectos.css);
+@import url(trabajos.css);
+@import url(curriculum.css);
+@import url(trabajospersonales.css);
+@import url(contacto.css);
+
+.inicio{
+position: relative;
+width: 1320px;
+height: 1763px;
+background: #FFFFFF;
+}
+
+.bolsa-trabajo{
+    width: 240px;
+    height: 98px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 843px;
+    height: 98px;
+    left: 200px;
+    top: 55px;
+}
+
+.texto{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44%;
+    color: #043C64;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    padding: 25px;
+    text-decoration-line:none;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.container{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 21px;
+gap: 33px;
+
+position: absolute;
+width: 967px;
+height: 280px;
+left: 168px;
+top: 175px;
+}
+
+.vinculacion{
+width: 390px;
+height: 135px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.objetivo{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 135%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+    width: 502px;
+    height: 280px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+
+.descripcion-osbaldo{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    width: 950px;
+    height: 389px;
+    left: 169px;
+    top: 520px;
+
+}
+
+.osbaldo{
+    width:fit-content;
+    height: 370px;
+    
+
+    box-shadow: 20px 20px 60px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nombre{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 112%;
+    color: #096CB3;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 23px;
+
+    width: 500px;
+    height: 314px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.osbaldo2{
+    width: 500px;
+    height: 315px;   
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.titulo-objetivo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 27px;
+
+    position: absolute;
+    width: 898px;
+    height: 67px;
+    left: 194px;
+    top: 974px;
+}
+
+.objetivo-egresados{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bolsa{
+    width: 65px;
+    height: 67px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.occ1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 40px;
+gap: 59px;
+
+position: absolute;
+width: 1045px;
+height: 375px;
+left: 121px;
+top: 1076px;
+}
+
+.logo-occ{
+    width: 416px;
+    height: 233px;
+    top: 71px;
+    left: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;  
+}
+
+.mundial{
+    width: 490px;
+    height: 375px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 135%;
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 70px;
+
+    position: absolute;
+    width: 754px;
+    height: 66px;
+    left: 251px;
+    top: 1567px;
+}
+
+.logo-vinculacion{
+    width: 196px;
+    height: 62px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.datos{
+    width: 352px;
+    height: 62px;
+    left: 266px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 85%;
+    text-align:center;
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.facebook{
+    width: 66px;
+    height: 66px;
+
+    flex:auto;
+    order: 2;
+    flex-grow: 0;
+}
+
+.direccion{
+    position: absolute;
+    width: 657px;
+    height: 26px;
+    left: 70px;
+    top: 120px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 125%;
+
+    display: flex;
+    align-items: center;
+    color: #000000;
+}

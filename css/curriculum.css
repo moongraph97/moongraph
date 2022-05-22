@@ -1,0 +1,347 @@
+.fondo4{
+    position: relative;
+    width: 1320px;
+    height: 1988px;
+    background: #FFFFFF;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 72px;
+    
+    position: absolute;
+    width: 824px;
+    height: 105px;
+    left: 228px;
+    top: 44px;      
+}
+
+.moongraph{
+    width: 257px;
+    height: 100px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.nav-link{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44%;
+    display: flex;
+    align-items: center;
+    color: #372B73;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+}
+
+.nav-item{
+    list-style: none;   
+}
+
+.sobremi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 51px;
+    
+    position: absolute;
+    width: 954px;
+    height: 378px;
+    left: 163px;
+    top: 216px;   
+}
+
+.diana{
+    width: 388px;
+    height: 371px;
+    border-radius: 54px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.descripcion{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.curriculum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 39px;
+
+    position: absolute;
+    width: 475px;
+    height: 92px;
+    left: 403px;
+    top: 667px;
+}
+
+.icono-curriculum{
+    width: 72px;
+    height: 87px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.titulo-curriculum{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 131%;
+    display: flex;
+    align-items: center;
+    color: #372B73;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 536px;
+    height: 429.3px;
+    left: 372px;
+    top: 829px;
+}
+
+.icono-experiencia{
+    width: 61px;
+    height: 64px;
+}
+
+.titulo-experiencia{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 130%;
+    color: #372B73;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.trabajo{
+    padding-top: 20px;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    width: 519px;
+    height: 64px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.programas-diseño{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 94px;
+    
+    position: absolute;
+    width: 977px;
+    height: 416px;
+    left: 152px;
+    top: 1368px;
+}
+
+.diseño{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+
+    width: 434px;
+    height: 333px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.software{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 79px;
+
+    width: 449px;
+    height: 416px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cuerpo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+    position: absolute;
+    width: 908px;
+    height: 52px;
+    left: 190px;
+    top: 1874px;
+}
+
+.monograma{
+    width: 54px;
+    height: 52px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.numero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cellphone{
+    width: 40px;
+    height: 40px;
+    gap:10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.telefono{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+
+.correo{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 15px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.email{
+    width: 40px;
+    height: 31px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hotmail{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 44%;
+
+display: flex;
+align-items: center;
+color: #000000;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.instagram1{
+    width: 40px;
+    height: 40px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.dribbble1{
+    width: 40px;
+    height: 40px;
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
