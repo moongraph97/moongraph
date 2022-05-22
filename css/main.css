@@ -305,3 +305,9 @@ top: 1076px;
     align-items: center;
     color: #000000;
 }
+
+@media screen and (max-width: 600px) {
+    .inicio{
+            width: 100%;
+        }
+}
